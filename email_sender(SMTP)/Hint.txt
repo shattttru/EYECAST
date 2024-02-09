@@ -1,0 +1,10 @@
+include('function.inc.php');
+include('smtp/PHPMailerAutoload.php');
+
+
+// $email = Receiver EmailID
+// $subject  = Subject Of Email
+$html = rand_str()
+//or
+//$html = rand(1111, 9999)
+send_email($email, $html, $subject);
